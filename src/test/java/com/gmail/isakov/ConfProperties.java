@@ -23,7 +23,7 @@ public class ConfProperties {
                 } catch (IOException e) {
                     e.printStackTrace(); } } }
     /**
-     * метод для возврата строки со значением из файла с настройками
+     * метод для возврата строки со значением из файла с настройками метод с
      */
     public static String getProperty(String key) {
         return PROPERTIES.getProperty(key); }
